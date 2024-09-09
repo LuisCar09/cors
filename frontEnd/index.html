@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet&display=swap" rel="stylesheet">
+    <title>Rick and Morty</title>
+</head>
+<body>
+    <section>
+        <article>
+            <div class="input-container">
+                <h1>Rick and Morty</h1>
+                <label for="pokemonName">Introduce el nombre</label>
+                <input type="text" name="pokemonName" id="characterName" placeholder="Rick" />
+                <button onclick="getPokemonInfo()">Obtener infomación</button>
+            </div>
+            <div id="pokemonInfo" class="pokemonInfo">
+                
+            </div>
+        </article>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

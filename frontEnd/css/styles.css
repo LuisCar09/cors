@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Handjet", sans-serif;
+    background-color: #E8F0FE;
+}
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+article{
+    margin: 0 auto;
+    max-width: 360px;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+.input-container:hover{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    
+}
+h1{
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+    color: #666666;
+}
+label{
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #666666;
+}
+input{
+    font-size: 20px;
+    padding: 6px 8px;
+    font-family: inherit;
+    color: #666666;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    background-color: #DCE7FA;
+    outline: none;
+}
+input:hover{
+    background-color:#C5D4F8 ;
+}
+button{
+    font-family: inherit;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding: 8px 0;
+    cursor: pointer;
+    border: none;
+    background-color: #F28C8C;
+    color: white;
+    font-weight: 400;
+    border-radius: 6px;
+    transition: all 0.5 linear;
+    margin-bottom: 16px;
+}
+button:hover{
+    transform: scale(1.02);
+    background-color: #E06767;
+    
+}
+
+.pokemonInfo p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-break: anywhere;
+}
+.pokemonInfo span{
+    font-weight: bold;
+    font-size: 22px;
+}
